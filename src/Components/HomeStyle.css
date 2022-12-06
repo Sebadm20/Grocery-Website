@@ -1,6 +1,6 @@
 .home{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     background: rgb(250,250,250);
 background: radial-gradient(circle, rgba(250,250,250,0.3981967787114846) 0%, rgba(249,242,232,0.36458333333333337) 15%, rgba(245,245,245,0.4766281512605042) 23%, rgba(248,232,205,1) 100%);
     /* background: rgb(255,255,255);
