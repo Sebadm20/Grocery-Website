@@ -1,12 +1,13 @@
 import { Component} from "react";
 import { MenuData } from "./MenuData";
+import "./NavbarStyle.css";
 
 class Navbar extends Component {
     render(){
         return (
             <nav className="NavbarItems"> 
-            <h1>Grocery Web<i className="fab fa-react"></i></h1>
-            <ul>
+            <h1 className="logo">Grocery Web<i className="fab fa-react"></i></h1>
+            <ul className="nav-menu">
                 {MenuData.map((item, index)=>{
                     return(
                         <li key={index}>
