@@ -7,10 +7,14 @@ class Navbar extends Component {
             <nav className="NavbarItems"> 
             <h1>Grocery Web<i className="fab fa-react"></i></h1>
             <ul>
-                
-                <li>
-                    <a href="index.html"><i className="fa-solid fa-house-user"></i>Home</a>
+                {MenuData.map((item, index)=>{
+                    return(
+                        <li key={index}>
+                    <a href={item.url} className={item.cName}><i className={item.icon}>{item.tittle}</i></a>
                 </li>
+                    )
+                })}
+                
             </ul>
             </nav>
         )
