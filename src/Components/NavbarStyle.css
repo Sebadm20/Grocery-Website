@@ -57,6 +57,18 @@
     display:none;
 }
 
+.nav-links-mobile{
+    padding: 0.5rem 1rem;
+    white-space: nowrap;
+    background-color: #fafafa;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #222;
+
+}
+
 @media screen and (max-width:850px){
     .NavbarItems{
         z-index: 99;
@@ -90,11 +102,21 @@
         color: #222;
     }
     .nav-links:hover{
-        background: rgba(255, 255, 255, 0.25);
+        background: #40E0D0;
         backdrop-filter: blur(20px);
 
     }
     .menu-icons{
         display: block;
+    }
+    .nav-links-mobile{
+        padding: 1.2rem;
+        display: block;
+        text-align: center;
+        font-size: 1.3rem;
+        font-weight: bold;
+        width: 70%;
+        margin: auto;
+
     }
 }
